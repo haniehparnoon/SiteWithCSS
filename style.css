@@ -1,0 +1,214 @@
+@font-face { font-family: 'Vazir';
+     src: url('font/Vazir.eot');
+     src: url('font/Vazir.eot?#iefix') format('embedded-opentype'),
+          url('font/Vazir.woff2') format('woff2'), 
+          url('font/Vazir.woff') format('woff'),
+          url('font/Vazir.ttf') format('truetype');}
+
+body{
+    font-family: 'Vazir',Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}          
+header{
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+
+span{
+    color: orange;
+}
+
+#url {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    
+}
+.link-menu:hover{
+    background-color: orange;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0px 15px;
+}
+#menu {
+    flex-basis: 200px;
+}
+#list-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.divmountain{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 238, 238);
+    
+}
+.mountain{
+  width: 100%;  
+}
+.center{
+    position:absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center > h1{
+    margin-bottom: 60px;
+}
+.center > button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 6px 17px;
+}
+.center>button:hover{
+    background-color: white;
+    color: orange;
+}
+.div2{
+    text-align: center;
+}
+.div2>h3{
+    margin: 0px;
+    padding: 20px;
+}
+.icon{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-color: orange;
+    border-radius: 50%;
+    padding:0px 20px;
+    margin-left: 10px;
+}
+.icon>img{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 0px 140px;
+    
+}
+.item{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-basis: 30%;
+   
+}
+.text{
+    text-align: end;
+}
+
+.mainlistlorem{
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+.itemstree{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+.itemstree>img{
+    width: 50%;
+}
+.listlorem{
+    text-align: end;
+    margin-right: 15px;
+}
+.listlorem>h3{
+    margin-right: 25px;
+}
+.pborder{
+    border-bottom: rgb(46, 46, 45) 1px dotted;
+}
+.images{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.imgbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img{
+    border: none;
+    width: 100px;
+    height:100px;
+    border-radius: 50%; 
+    margin: 40px; 
+    
+}
+.background{
+    background-color: rgb(241, 238, 238);
+    background-size: 100% 100%;
+
+
+    
+}
+
+#form{
+    margin: auto;
+    max-width: 40%;
+    text-align: end;
+}
+.form_input{
+    width:100%;
+  
+}
+.button{
+    background-color: orange;
+    color: white;
+    border: 1px black solid;
+    padding: 6px 17px;
+    
+
+}
+.button:hover{
+    background-color: white;
+    color: orange;
+}
+footer{
+    background-color: rgb(65, 64, 64);
+    color: white;
+    margin-top: 20px;
+}
+#contact-menu{
+    padding-right: 200px;
+}
+#site-copy{
+    padding-left: 200px;
+}
